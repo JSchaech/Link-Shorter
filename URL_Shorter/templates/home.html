@@ -1,0 +1,35 @@
+<html>
+<head>
+<link rel="stylesheet" href="../static/button.css">
+<link rel="stylesheet" href='../static/Text.css' />
+<link rel="stylesheet" href='../static/bg.css' />
+<script src="../static/script.js"></script>
+
+</head>
+<body>
+    <div class="area" >
+        <ul class="circles">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+        </ul>
+        <div class="login-page">
+            <div class="form">
+              <form class="login-form"  action="{{ url_for("addroute")}}" method="post" onsubmit="return redirectToCustomURL()">
+                <input type="text" placeholder="URL" name="uURL"/>
+                <input type="text" placeholder="Custom_URL" name="uC_URL"/>
+                <button>Short</button">
+              </form>
+            </div>
+          </div>
+</div >
+
+</body>
+</html>
