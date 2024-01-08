@@ -1,8 +1,10 @@
+
 .login-page {
   width: 80%;
   padding: 8% 0 0;
   margin: auto;
 }
+
 .form {
   position: absolute;
   width: 60%;
@@ -58,3 +60,79 @@
   font-size: 25px;
   color: white;
 }
+.button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #a200ff;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #182952;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+
+
+.List-Links{
+  margin-top: 3%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  margin-bottom: 3%;
+
+  
+}
+
+.Links {
+  width: 100%;
+  background: #182952;
+  height: 2%;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  font-size: 24px;
+  color: white;
+  margin: 5px auto; /* Center the .Links horizontally */
+  overflow-y: auto; /* Enable vertical scrolling */
+}
+
+.Links button{
+  background-color: #a200ff;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 15%;
+  cursor: pointer;
+}
+
+/*.link-list {
+  margin-top: 20px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+
+
+.link-list li {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #273961;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+  color: white;
+}
+
+.link-list a {
+  color: white;
+  text-decoration: none;
+}*/

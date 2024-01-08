@@ -21,13 +21,10 @@
         </ul>
         <div class="login-page">
             <div class="form">
-              <form class="login-form"  action="{{ url_for("addroute")}}" method="post">
-                <span>Hallo <a href="/Links">{{Username_HTML}}</a></span>
-                <br>
-                <br>
-                <input type="text" placeholder="URL" name="uURL"/>
-                <input type="text" placeholder="Custom_URL" name="uC_URL"/>
-                <button>Short</button">
+              <form class="login-form"  action="{{ url_for("Login")}}" method="post">
+                <input type="text" placeholder="Username" name="USERNAME"/>
+                <input type="text" placeholder="Password" name="PASSWORD"/>
+                <button>Login</button">
               </form>
             </div>
           </div>

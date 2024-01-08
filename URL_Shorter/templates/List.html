@@ -1,0 +1,24 @@
+<html>
+<head>
+<link rel="stylesheet" href='../static/Text.css' />
+<link rel="stylesheet" href='../static/bg.css' />
+<script src="../static/remove.js"></script>
+
+</head>
+<style>body{
+    background: #4e54c8;
+}</style>
+<body>
+    <div class="List-Links">
+                {% for og_link, short_link in links %}
+                <div class="Links">
+                    <span>Original Link:</span> <a href="{{ og_link }}" target="_blank">{{ short_link }}</a><br>
+                    <span>Shortened Link:</span> <a href="{{ short_link }}" target="_blank">{{ og_link }}</a><br>
+                    <button onclick="deleteEntry('{{ og_link }}')">remove</button>
+                </div>
+                {% endfor %}
+    </div>
+    <div>
+    </div>
+</body>
+</html>
